@@ -1,0 +1,19 @@
+
+@import 'functions';
+//custom colors:
+$primary:#5265E1;
+$secondary:#FA5959;
+
+//hero
+
+.hero-img{
+
+}
+
+
+.centerFlex{
+    @include flexCenter(column);
+}
+//import bootstrap
+
+@import "../node_modules/bootstrap/scss/bootstrap";
