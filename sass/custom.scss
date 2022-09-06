@@ -4,10 +4,34 @@
 $primary:#5265E1;
 $secondary:#FA5959;
 
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    max-width: 1200px;
+}
 //hero
-
 .hero-img{
+    
+    max-inline-size: 100%;
+}
 
+.background-figure{
+    background-color: $primary;
+    border-radius: 15rem 0 0 15rem;
+    height: 18rem;
+    position: relative;
+    z-index: -100;
+    top: -17rem;
+    right: -7rem; 
+    
+   
+}
+.prueba{
+    display: inline;
+   
 }
 
 

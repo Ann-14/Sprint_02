@@ -1,4 +1,4 @@
-.centerFlex{display:flex;justify-content:center;align-items:center;text-align:center;flex-direction:column}/*!
+*{margin:0;padding:0}body{max-width:1200px}.hero-img{max-inline-size:100%}.background-figure{background-color:#5265e1;border-radius:15rem 0 0 15rem;height:18rem;position:relative;z-index:-100;top:-17rem;right:-7rem}.prueba{display:inline}.centerFlex{display:flex;justify-content:center;align-items:center;text-align:center;flex-direction:column}/*!
  * Bootstrap  v5.2.0 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
