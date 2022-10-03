@@ -59,23 +59,39 @@ body {
     }
 }
 
-.tab-features {
+// .tab-features {
 
-    a {
-        text-decoration: none;
+//     a {
+//         text-decoration: none;
+//         color: black;
+//     }
+
+//     li {
+//         padding: 1rem;
+//     }
+
+
+//     li:first-child {
+//         border-bottom: solid 3px #FA5959;
+//         padding: 1rem;
+
+//     }
+// }
+
+.tab-features {
+     a {      text-decoration: none;
         color: black;
     }
-
-    li {
+li{
+    padding: 1rem;
+}
+    li:hover {
         padding: 1rem;
-    }
-
-
-    li:first-child {
         border-bottom: solid 3px #FA5959;
-        padding: 1rem;
-
     }
+
+
+   
 }
 
 .background-figure-two {
