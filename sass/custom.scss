@@ -59,25 +59,11 @@ body {
     }
 }
 
-// .tab-features {
 
-//     a {
-//         text-decoration: none;
-//         color: black;
-//     }
-
-//     li {
-//         padding: 1rem;
-//     }
-
-
-//     li:first-child {
-//         border-bottom: solid 3px #FA5959;
-//         padding: 1rem;
-
-//     }
-// }
-
+img.tab-img{
+    max-inline-size: 100%;
+    width: 20rem;
+}
 .tab-features {
      a {      text-decoration: none;
         color: black;
@@ -88,12 +74,16 @@ li{
     li:hover {
         padding: 1rem;
         border-bottom: solid 3px #FA5959;
+      
     }
-
-
-   
+  
 }
-
+button.nav-link:hover{
+   border:0cm
+}
+button.nav-link:active{
+    border:0cm
+ }
 .background-figure-two {
     background-color: $primary;
     border-radius: 0 15rem 15rem 0;
