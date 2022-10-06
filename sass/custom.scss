@@ -16,10 +16,6 @@ body {
 /********************/
 /* HERO SECTION*/
 /********************/
-/********************/
-/* review SECTION*/
-/* text muted?*/
-/********************/
 
 .left-container {
     p {
@@ -73,7 +69,7 @@ li{
 }
     li:hover {
         padding: 1rem;
-        border-bottom: solid 3px #FA5959;
+        border-bottom: solid 3px $secondary;
       
     }
   
@@ -97,7 +93,7 @@ button.nav-link:active{
 }
 
 /********************/
-/* DOWNLOAD SECTION*/
+/* DOWNLOAD SECTION (CARD CREATION)*/
 /********************/
  
 .card-wrapper {
@@ -166,3 +162,13 @@ img.card-img {
 //import bootstrap
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+.nav-tabs .nav-link {
+    margin-bottom: calc(var(--bs-nav-tabs-border-width)*-1);
+    background: none;
+    border: $primary;
+    border-top-left-radius: var(--bs-nav-tabs-border-radius);
+    border-top-right-radius: var(--bs-nav-tabs-border-radius);
+}
